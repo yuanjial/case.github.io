@@ -1,0 +1,86 @@
+.top-container{width:100%;margin: 0 auto;overflow: hidden;position: relative; height: 100%;z-index: 99999999;}
+.inner{width:100%;    margin: 0 auto; list-style: none;}
+.inner li{list-style: none;position: absolute;display: none;} 
+.inner li:first-child{display:block;}
+.innerwraper img{width: 100%;   height: 100%;  overflow: hidden;}
+.innerwraper:first-child{background: url(../img/ban/banner-qiye-bkb.jpg) center center;;}
+.innerwraper:nth-child(2){background: url(../img/ban/banner-qiye-bkr.jpg) center center;;}
+.innerwraper:nth-child(3){background: url(../img/ban/banner-qiye-bkg.jpg) center center;}
+.innerwraper:nth-child(4){background: url(../img/ban/banner-qiye-bk.jpg) center center;}
+.innerwraper{float: left;    width: 100%;
+    height: 100%;}
+.clearfix{ z-index: 1;}
+.clearfix:after{display: block;;clear: both;visibility: hidden;content:"";height: 0;}
+.paginat{position: absolute;bottom: 90px;width: 100%;text-align: center;left: 40%;}
+.paginat span{width: 10px;height: 10px;background: #fff;display: inline-block;cursor: pointer;border-radius: 10px;}
+.paginat .active{background: red;}
+
+
+.left-arrowy,.right-arrowy{position: absolute;width: 10%;height: 20px;top: 40%;text-align: center;font-size: 64px;line-height: 20px;color: #fff;}
+.arrowy{display: none; cursor: pointer;}
+.left-arrowy{left: 10%;}
+.right-arrowy{right: 10%;}
+.top-container:hover .arrowy{display: block;}
+
+
+/*第一张banner*/
+.banner_left1{position: absolute;left: 5%;opacity: 0;top: 24%;transition: all 1s;}
+.banner_right1{position: absolute;left:75%;opacity:0;top: 37%; transition: all 1s;}
+.banner_top1{position: absolute;left:34.5%;opacity: 0; transition: all 1s;top: -50%;top: -100%;}
+.banner_bottom11{position: absolute;left: 12.5%;opacity: 0; transition: all 1s;top: 50%;transform: scale(0.1);}
+.banner_bottom1{position: absolute;left: 35%;opacity: 0; transition: all 1s;top: 100%;}
+
+.mov  .banner_left1{position: absolute;left: 34.5%;opacity: 1; transition: all 1s;}
+.mov  .banner_right1{position: absolute;left: 25%;opacity: 1;transition: all 1s;}
+.mov  .banner_top1{position: absolute;left: 34.5%;opacity: 1; transition: all 1s;top: 21%;}
+.mov  .banner_bottom1{position: absolute;left: 35%;opacity: 1; transition: all 1s;top: 60%;}
+.mov  .banner_bottom11{position: absolute;left: 12.5%;opacity: 1; transition: all 1s;top: 50%;transform: scale(1);}
+
+
+/*第2张banner*/
+
+.banner_left2{position: absolute;left: 75%;opacity: 0;top: 24%;transition: all 1s;}
+.banner_right2{position: absolute;left:5%;opacity:0;top: 37%; transition: all 1s;}
+.banner_top2{position: absolute;left:44.5%;opacity: 0; transition: all 1s;top: -50%;top: -100%;}
+.banner_bottom22{position: absolute;left: 35%;opacity: 0; transition: all 1s;top: 50%;transform: scale(0.1);}
+.banner_bottom2{position: absolute;left: 28%;opacity: 0; transition: all 1s;top: 50%;}
+.banner_bottom22 img{transform: rotateY(40deg)  scale(0.8);transition: 1s;}
+.banner_bottom2 img{transform: rotateY(40deg) scale(0.8);transition: 1s;}
+.banner_bottom2{perspective: 500px;
+	-webkit-perspective: 500;}
+.banner_bottom22{perspective: 500px;
+	-webkit-perspective: 500;}
+
+.mov  .banner_left2{position: absolute;left: 45%;opacity: 1; transition: all 1s;}
+.mov  .banner_right2{position: absolute;left: 44.5%;opacity: 1;transition: all 1s;}
+.mov  .banner_top2{position: absolute;left: 37%;opacity: 1; transition: all 1s;top: 20%;}
+.mov  .banner_bottom2{position: absolute;left: 28%;opacity: 1; transition: all 1s;top: 20%;}
+.mov  .banner_bottom22{position: absolute;left: 35%;opacity: 1; transition: all 1s;top: 20%;transform: scale(1);}
+
+
+
+
+/*第3张banner*/
+.banner_left3{position: absolute;left: 35%;opacity: 0;top: -24%;transition: all 1s;}
+.banner_right3{position: absolute;left:35%;opacity:0;top: 34%;transform: scale(0.3); transition: all 1s;}
+.banner_top3{position: absolute;left:44.5%;opacity: 0; transition: all 1s;top: -50%;top: -100%;}
+.banner_bottom33{position: absolute;left: 30%;opacity: 0; transition: all 1s;top: 60%;transform: scale(0.1);}
+.banner_bottom3{position: absolute;left: 300%;opacity: 0; transition: all 1s;top: 100%;}
+
+.mov  .banner_bottom3{position: absolute;left: 30%;opacity: 1; transition: all 1s;top: 30%;}
+.mov  .banner_bottom33{position: absolute;left: 30%;opacity: 1; transition: all 1s;top: 60%;transform: scale(1);}
+.mov  .banner_top3{position: absolute;left: 44.5%;opacity: 1; transition: all 1s;top: 21%;}
+.mov  .banner_left3{position: absolute;left: 35%;opacity: 1; top: 14%;transition: all 1s;}
+.mov  .banner_right3{position: absolute;left: 35%;opacity: 1;transform: scale(1);transition: all 1s;}
+/*第4张banner*/
+.banner_left4{position: absolute;left: 25%;opacity: 0;top: 17%;transition: all 1s;transform: scale(0.1);}
+.banner_right4{position: absolute;left:25%;opacity:0;top: 34%; transition: all 1s;transform: scale(0.1);}
+.banner_top4{position: absolute;left:45%;opacity: 0; transition: all 1s;top: 21%;transform: scale(0.1);}
+.banner_bottom44{position: absolute;left: 15%;opacity: 0; transition: all 1s;top: 60%;transform: scale(0.1);}
+.banner_bottom4{position: absolute;left: 35%;opacity: 0; transition: all 1s;top: 40%;transform: scale(0.1);}
+
+.mov  .banner_bottom4{position: absolute;left: 45%;opacity: 1; transition: all 1s;top: 40%;transform: scale(1);}
+.mov  .banner_bottom44{position: absolute;left: 15%;opacity: 1; transition: all 1s;top: 50%;transform: scale(1);}
+.mov  .banner_top4{position: absolute;left: 44.5%;opacity: 1; transition: all 1s;top: 21%;transform: scale(1);}
+.mov  .banner_left4{position: absolute;left: 25%;opacity: 1; top: 17%;transition: all 1s;transform: scale(1);}
+.mov  .banner_right4{position: absolute;left: 25%;opacity: 1;top: 34%;transition: all 1s;transform: scale(1);}
